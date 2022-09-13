@@ -16,6 +16,11 @@ body {
     font-size: 4rem;
 }
 
+.txt {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
 
 .banner-bg {
     background: url(../images/banner.png)center top /cover;
@@ -44,7 +49,10 @@ body {
 
     .snsLinks {
         display: flex;
-        justify-content: space-between;
+
+        li {
+            margin-right: 1rem;
+        }
     }
 }
 
@@ -61,8 +69,6 @@ body {
     }
 
     p {
-        font-style: italic;
-        font-size: 1.5rem;
         line-height: 1.75;
 
         &:nth-child(5) {
@@ -111,8 +117,6 @@ body {
     }
 
     p {
-        font-style: italic;
-        font-size: 1.5rem;
         line-height: 2.5;
 
         &:nth-child(3) {
@@ -139,6 +143,63 @@ body {
 
         & li:nth-child(2) {
             margin-right: 1.5rem;
+        }
+    }
+}
+
+.work {
+    margin-bottom: 9rem;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    >.txt {
+        margin-bottom: 3.5rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1230px;
+    width: 100%;
+
+
+    .card {
+        margin-right: 1.5rem;
+
+        .txt {
+            line-height: 2;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.footer {
+    padding: 4rem 0;
+    color: #fff;
+}
+
+.contact {
+    .title {
+        margin-bottom: 1rem;
+    }
+}
+
+.contactList {
+    .txt {
+        margin-bottom: 1rem;
+
+        a {
+            color: #fff;
+            transition: all .2s;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
         }
     }
 }
