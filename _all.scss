@@ -1,27 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&family=Roboto:ital,wght@0,400;1,500;1,700;1,900&display=swap');
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.title {
-    font-style: italic;
-    line-height: 1.3;
-    font-size: 4rem;
-}
-
-.txt {
-    font-style: italic;
-    font-size: 1.5rem;
-}
-
-
 .banner-bg {
     background: url(../images/banner.png)center top /cover;
     height: 958px;
@@ -52,7 +28,13 @@ body {
 
         li {
             margin-right: 1rem;
+            transition: all 0.2s;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
         }
+
     }
 }
 
@@ -132,7 +114,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         flex: 1 1 auto;
-        width: 68%;
+        width: 80%;
         margin: 0 auto;
         padding-bottom: 10rem;
         margin-bottom: 3.5rem;
@@ -181,13 +163,15 @@ body {
 .footer {
     padding: 4rem 0;
     color: #fff;
+
+    .contact {
+        .title {
+            margin-bottom: 1rem;
+        }
+    }
+
 }
 
-.contact {
-    .title {
-        margin-bottom: 1rem;
-    }
-}
 
 .contactList {
     .txt {

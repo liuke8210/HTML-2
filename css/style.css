@@ -125,6 +125,14 @@ body {
 }
 .banner-bg .snsLinks li {
   margin-right: 1rem;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.banner-bg .snsLinks li:hover {
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 .about {
@@ -198,7 +206,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  width: 68%;
+  width: 80%;
   margin: 0 auto;
   padding-bottom: 10rem;
   margin-bottom: 3.5rem;
@@ -245,8 +253,7 @@ body {
   padding: 4rem 0;
   color: #fff;
 }
-
-.contact .title {
+.footer .contact .title {
   margin-bottom: 1rem;
 }
 
