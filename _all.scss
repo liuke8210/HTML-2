@@ -130,7 +130,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 70%;
+        max-width: 85%;
         margin: 0 auto;
         padding-bottom: 10rem;
         margin-bottom: 3.5rem;
@@ -163,7 +163,6 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;
 
 
     .card {
